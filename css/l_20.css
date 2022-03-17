@@ -1,0 +1,19 @@
+*{
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+}
+
+
+.container{
+    background-color: #da9a4d;
+    border: 6px solid  rgb(182, 38, 38);
+    /* padding :9px;
+   padding : 23px 23px 23px 23px;  padding/margin  = top right bottom left */
+    padding: 36px 19px;
+    /* padding : y(top/bottom) x (right/left) */
+    margin : 34px;
+    width: 233px;
+    /* box-sizing: border-box;
+} */
+}

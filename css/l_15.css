@@ -1,0 +1,17 @@
+#redElement{
+    color: red;
+    border: 1px solid black;
+}
+/* Class Selector */
+.redele{
+    color: purple;
+}
+.bgblue{
+    background-color:aqua;
+    
+}
+/* Grouping selector */
+footer,span {
+    background-color:lightblue
+}
+

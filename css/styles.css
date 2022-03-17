@@ -1,0 +1,41 @@
+.heading {
+    text-align: center;
+}
+
+.one {
+    background-color: #5cac84;
+}
+
+.two {
+    background-color: rgb(142, 72, 253);
+}
+
+.three {
+    background-color: #6398dd;
+}
+
+.image {
+    height: 13rem;
+    width: 13rem;
+    border-radius: 100%;
+    margin-left: 40%;
+}
+
+.btn:hover
+{
+
+background-image:none;
+background-color:#ff00ff;
+}
+
+a {
+    color: black;
+    border: None;
+}
+th {
+    padding: 10px;
+}
+
+td {
+    padding: 10px;
+}

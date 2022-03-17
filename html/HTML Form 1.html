@@ -1,0 +1,66 @@
+<html>
+	<head>
+		<title> FORM </title>
+		
+		<style>
+		textarea   {
+		      overflow-y: scroll;
+			  overflow-x: scroll;
+			  height : 100px;
+			  resize : none;
+			  }
+        </style>	s
+	</head>
+	
+	<body>
+		<center><h1>FORM</h1> </center>
+		<br>
+		<form>
+			<label for="name">Name:  &nbsp; &nbsp; &nbsp; &nbsp; &nbsp; &nbsp;  </label>
+			<input type="text" name="name" value="">
+			<br>
+			<br>
+			<label for="add">Address:   &nbsp; &nbsp; &nbsp; &nbsp;</label>
+			<input type="text" name="add" value="">
+			<br>
+			<br>
+			<label for="text">City :      &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;</label>
+			<input type="city" name="city" value="">
+			<br>
+			<br>
+			<label for="state">State:    &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp;</label>
+			<input type="state" name="state" value="">
+			<br>
+			<br>
+			<label for="ph">Zip:     &nbsp; &nbsp; &nbsp; &nbsp;&nbsp; &nbsp; &nbsp; &nbsp;</label>
+			<input type="number" name="text" value="">
+			<br>
+			<br>
+			
+			<label for="magazine">Magazine:&nbsp; &nbsp;  &nbsp;   </label>
+			<select id="magazine" name="magazine">
+				<option value="Today">India Today</option>
+				<option value="Allure">Allure</option>
+				<option value="Time">Time</option>
+				<option value="Champak">Champak</option>
+			</select>
+			<br>
+			<br>
+			
+			<label for="sub">Subscription:      </label>
+			<input type="radio" name="sub" value="1 Year">
+			<label for="sub">1 Year      </label>
+			<input type="radio" name="sub" value="2 Year">
+			<label for="sub">2 Year      </label>
+			<br><br>
+			
+			<label for="sub">Additional Comments:      </label><br>
+			<textarea rows="4" cols="50" name="comment" form="usrform"></textarea>
+			<br><br>
+			
+			<button type="submit" form="form1" value="Submit">Send Your Order</button>
+		</form>
+		
+		
+	</body>
+</html>
