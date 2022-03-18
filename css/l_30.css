@@ -1,0 +1,19 @@
+.box {
+    background-color: red;
+    color: black;
+    text-align: center;
+    font-size: 22px;
+    display: none;
+}
+
+@media(max-width:300px) {
+    #box-1 {
+        display: block;
+    }
+}
+
+@media(max-width:500px) and (min-width:300px) {
+    #box-2 {
+        display: block;
+    }
+}
